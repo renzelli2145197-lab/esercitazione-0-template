@@ -1,27 +1,28 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: ..
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi): Danilo Renzelli , Manuel Fortunato
 
-URL del repository condiviso:
+URL del repository condiviso: ..
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: usato due pc 
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
 
-Che cosa ho capito su sorgente ed eseguibile:
+Comando di esecuzione e risultato osservato: ./hello : quello ceh ho messo nella printf
 
-Output richiesto e comportamento del programma prima della modifica:
+Che cosa ho capito su sorgente ed eseguibile: sono due file distintni , se non compili modificare la sorgente non modifica l.eseguibile
 
-Esito dopo la modifica e spiegazione della correzione:
+Output richiesto e comportamento del programma prima della modifica:..
+
+Esito dopo la modifica e spiegazione della correzione:..
 
 ## Step 1 — Git
 
@@ -29,8 +30,7 @@ Quali file ho incluso nel commit e perché: ho inserito hello.c perche` ho aggiu
 
 Come ho verificato che la versione provata sia presente su GitHub: git status
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: 
-
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: dopo git pull le modifiche su osservazioni.md si vedono in locale , non serve un clone perche` nella sessione locale e browser sono collegati 
 ## Step 2 — Eco: prima prova
 
 Argomenti passati, comando e risultato:
